@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toppage {
+  display: flex;
+  flex-direction: column; /* 縦 */
+  align-items: center; /* 水平方向の中央 */
+}
+
+img {
+  margin: 20px;
+  padding: 60px;
+  width: 100px;
+  height: 100px;
+  max-width: 100%; /* レスポンシブ対応 */
+  height: auto; /* アスペクト比を維持 */
+}
+
+button {
+  border-radius: 20px;
+  border: 2px solid #8b4513;
+  background-color: #ffd700;
+  padding: 10px;
+  color: #8b4513;
+  margin-bottom: 10px;
+}
